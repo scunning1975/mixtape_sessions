@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Glassmorphism card effect */
+.card {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+@layer utilities {
+    .animation-delay-1000 {
+        animation-delay: 2s;
+      }
+    .animation-delay-2000 {
+      animation-delay: 2s;
+    }
+    .animation-delay-3000 {
+        animation-delay: 2s;
+      }
+    .animation-delay-4000 {
+      animation-delay: 4s;
+    }
+
+    .hide-scroll-bar {
+      scrollbar-width: none;
+    }
+    .hide-scroll-bar::-webkit-scrollbar {
+      display: none;
+    }
+    .visible-scroll-bar {
+      scrollbar-width: auto;
+    }
+    .visible-scroll-bar::-webkit-scrollbar {
+      display: block;
+    }       
+}
+
+
+
+/* https://uigradients.com/#Mild */
+.ci-gradient {
+  background: linear-gradient(to right, #67b26f, #4ca2cd);
+}
+/* https://uigradients.com/#ViceCity */
+.did-gradient {
+  background: linear-gradient(to right, #3494e6, #ec6ead);
+}
+/* https://uigradients.com/#Dania */
+.iv-gradient {
+  background: linear-gradient(to right, #be93c5, #7bc6cc);
+}
+.text-gradient {
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
