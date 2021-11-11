@@ -1193,8 +1193,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1rem;
 }
 
-.mb-16 {
-  margin-bottom: 4rem;
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .mr-auto {
@@ -1217,8 +1217,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 5rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .mb-48 {
@@ -1281,6 +1281,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 443.45px;
 }
 
+.h-\[540px\] {
+  height: 540px;
+}
+
+.h-48 {
+  height: 12rem;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -1305,8 +1317,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
-.w-96 {
-  width: 24rem;
+.w-4\/5 {
+  width: 80%;
 }
 
 .w-1\/2 {
@@ -1321,16 +1333,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 60.5rem;
 }
 
-.w-2\/3 {
-  width: 66.666667%;
+.w-96 {
+  width: 24rem;
 }
 
 .w-8 {
   width: 2rem;
-}
-
-.w-4\/5 {
-  width: 80%;
 }
 
 .w-\[5\%\] {
@@ -1339,6 +1347,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[286\.933px\] {
   width: 286.933px;
+}
+
+.w-\[1080px\] {
+  width: 1080px;
+}
+
+.w-48 {
+  width: 12rem;
 }
 
 .max-w-6xl {
@@ -1487,6 +1503,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-wrap: nowrap;
 }
 
+.place-items-center {
+  place-items: center;
+}
+
 .content-center {
   align-content: center;
 }
@@ -1570,6 +1590,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-space-x-reverse: 0;
   margin-right: calc(0px * var(--tw-space-x-reverse));
   margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
 .divide-gray-600 > :not([hidden]) ~ :not([hidden]) {
@@ -1868,6 +1894,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0px;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -1914,6 +1945,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-16 {
   padding-bottom: 4rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
 }
 
 .text-left {
@@ -2212,6 +2251,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
+.ring-electric-violet-500 {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(135 30 255 / var(--tw-ring-opacity));
+}
+
 .ring-gray-600 {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(75 85 99 / var(--tw-ring-opacity));
@@ -2321,6 +2365,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   -webkit-text-fill-color: transparent;
 }
 
+/* Prose */
+
+.prose a {
+  --tw-text-opacity: 1;
+  color: rgb(135 30 255 / var(--tw-text-opacity));
+}
+
+.prose a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(101 23 191 / var(--tw-text-opacity));
+}
+
+.target\:ring-2:target {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
 .hover\:-translate-y-0\.5:hover {
   --tw-translate-y: -0.125rem;
   transform: var(--tw-transform);
@@ -2364,6 +2426,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:text-violet-red-800:hover {
   --tw-text-opacity: 1;
   color: rgb(153 34 77 / var(--tw-text-opacity));
+}
+
+.hover\:ring-2:hover {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
 .hover\:visible-scroll-bar:hover {
@@ -2454,8 +2522,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: flex;
   }
 
-  .sm\:w-2\/3 {
-    width: 66.666667%;
+  .sm\:w-96 {
+    width: 24rem;
   }
 
   .sm\:max-w-xs {
@@ -2517,14 +2585,19 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 3rem;
   }
 
+  .sm\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
   .sm\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
 
-  .sm\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
+  .sm\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .sm\:pl-8 {
@@ -2594,6 +2667,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 5rem;
   }
 
+  .md\:h-28 {
+    height: 7rem;
+  }
+
   .md\:w-20 {
     width: 5rem;
   }
@@ -2608,6 +2685,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-\[90\%\] {
     width: 90%;
+  }
+
+  .md\:w-28 {
+    width: 7rem;
   }
 
   .md\:columns-2 {
@@ -2977,3 +3058,4 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-top: 2rem;
   }
 }
+

@@ -56,3 +56,12 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* Prose */
+.prose a {
+  @apply text-electric-violet-500;
+}
+.prose a:hover {
+  @apply text-electric-violet-700;
+}
+
