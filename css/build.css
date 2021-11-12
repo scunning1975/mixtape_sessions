@@ -1221,6 +1221,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 4rem;
 }
 
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
 .mb-48 {
   margin-bottom: 12rem;
 }
@@ -1285,12 +1289,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 540px;
 }
 
-.h-48 {
-  height: 12rem;
-}
-
 .h-\[630px\] {
   height: 630px;
+}
+
+.h-48 {
+  height: 12rem;
 }
 
 .min-h-screen {
@@ -2434,6 +2438,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:text-violet-red-800:hover {
   --tw-text-opacity: 1;
   color: rgb(153 34 77 / var(--tw-text-opacity));
+}
+
+.hover\:text-violet-red-700:hover {
+  --tw-text-opacity: 1;
+  color: rgb(191 42 97 / var(--tw-text-opacity));
 }
 
 .hover\:ring-2:hover {
