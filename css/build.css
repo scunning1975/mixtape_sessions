@@ -1114,14 +1114,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 0px;
 }
 
-.top-1\/2 {
-  top: 50%;
-}
-
-.left-full {
-  left: 100%;
-}
-
 .-left-36 {
   left: -9rem;
 }
@@ -1337,10 +1329,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 18rem;
 }
 
-.w-\[60\.5rem\] {
-  width: 60.5rem;
-}
-
 .w-96 {
   width: 24rem;
 }
@@ -1381,10 +1369,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 65ch;
 }
 
-.max-w-none {
-  max-width: none;
-}
-
 .max-w-\[88rem\] {
   max-width: 88rem;
 }
@@ -1403,16 +1387,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-shrink-0 {
   flex-shrink: 0;
-}
-
-.translate-x-\[-40\%\] {
-  --tw-translate-x: -40%;
-  transform: var(--tw-transform);
-}
-
-.-translate-y-1\/2 {
-  --tw-translate-y: -50%;
-  transform: var(--tw-transform);
 }
 
 .-rotate-1 {
@@ -2518,10 +2492,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 640px) {
-  .sm\:left-\[8rem\] {
-    left: 8rem;
-  }
-
   .sm\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -2549,11 +2519,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:flex-none {
     flex: none;
-  }
-
-  .sm\:translate-x-0 {
-    --tw-translate-x: 0px;
-    transform: var(--tw-transform);
   }
 
   .sm\:-rotate-1 {
@@ -2792,10 +2757,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1024px) {
-  .lg\:left-\[14rem\] {
-    left: 14rem;
-  }
-
   .lg\:col-span-3 {
     grid-column: span 3 / span 3;
   }
