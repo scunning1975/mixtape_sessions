@@ -39,7 +39,6 @@
     }       
 }
 
-
 /* https://uigradients.com/#Mild */
 .ci-gradient {
   background: linear-gradient(to right, #67b26f, #4ca2cd);
@@ -54,9 +53,29 @@
 }
 .text-gradient {
   background-clip: text;
+  color: transparent;
   -webkit-text-fill-color: transparent;
 }
 
+@media (min-width: 640px) {
+  /* https://uigradients.com/#Mild */
+  .sm\:ci-gradient {
+    background: linear-gradient(to right, #67b26f, #4ca2cd);
+  }
+  /* https://uigradients.com/#ViceCity */
+  .sm\:did-gradient {
+    background: linear-gradient(to right, #3494e6, #ec6ead);
+  }
+  /* https://uigradients.com/#Dania */
+  .sm\:iv-gradient {
+    background: linear-gradient(to right, #be93c5, #7bc6cc);
+  }
+  .sm\:text-gradient {
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+}
 /* Prose */
 .prose a {
   @apply text-electric-violet-500;

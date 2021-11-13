@@ -1357,6 +1357,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1200px;
 }
 
+.w-72 {
+  width: 18rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
 .max-w-6xl {
   max-width: 72rem;
 }
@@ -2348,7 +2356,35 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-gradient {
   -webkit-background-clip: text;
           background-clip: text;
+  color: transparent;
   -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 640px) {
+  /* https://uigradients.com/#Mild */
+
+  .sm\:ci-gradient {
+    background: linear-gradient(to right, #67b26f, #4ca2cd);
+  }
+
+  /* https://uigradients.com/#ViceCity */
+
+  .sm\:did-gradient {
+    background: linear-gradient(to right, #3494e6, #ec6ead);
+  }
+
+  /* https://uigradients.com/#Dania */
+
+  .sm\:iv-gradient {
+    background: linear-gradient(to right, #be93c5, #7bc6cc);
+  }
+
+  .sm\:text-gradient {
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 /* Prose */
@@ -2609,6 +2645,30 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .sm\:ci-gradient {
+    background: linear-gradient(to right, #67b26f, #4ca2cd);
+  }
+
+  .sm\:did-gradient {
+    background: linear-gradient(to right, #3494e6, #ec6ead);
+  }
+
+  .sm\:iv-gradient {
+    background: linear-gradient(to right, #be93c5, #7bc6cc);
+  }
+
+  .sm\:text-gradient {
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 @media (min-width: 768px) {
@@ -2671,6 +2731,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-28 {
     width: 7rem;
+  }
+
+  .md\:w-96 {
+    width: 24rem;
   }
 
   .md\:columns-2 {
