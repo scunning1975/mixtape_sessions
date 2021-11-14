@@ -1321,16 +1321,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 80%;
 }
 
+.w-72 {
+  width: 18rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
 
 .w-\[18rem\] {
   width: 18rem;
-}
-
-.w-96 {
-  width: 24rem;
 }
 
 .w-8 {
@@ -1345,6 +1345,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 286.933px;
 }
 
+.w-80 {
+  width: 20rem;
+}
+
 .w-\[1080px\] {
   width: 1080px;
 }
@@ -1355,14 +1359,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[1200px\] {
   width: 1200px;
-}
-
-.w-72 {
-  width: 18rem;
-}
-
-.w-80 {
-  width: 20rem;
 }
 
 .max-w-6xl {
@@ -2713,12 +2709,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: 7rem;
   }
 
+  .md\:h-96 {
+    height: 24rem;
+  }
+
   .md\:w-20 {
     width: 5rem;
   }
 
   .md\:w-1\/3 {
     width: 33.333333%;
+  }
+
+  .md\:w-96 {
+    width: 24rem;
   }
 
   .md\:w-full {
@@ -2731,10 +2735,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-28 {
     width: 7rem;
-  }
-
-  .md\:w-96 {
-    width: 24rem;
   }
 
   .md\:columns-2 {
