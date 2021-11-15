@@ -1829,6 +1829,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 1.5rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
+.p-96 {
+  padding: 24rem;
+}
+
+.p-24 {
+  padding: 6rem;
+}
+
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
