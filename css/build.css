@@ -2562,19 +2562,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(153 226 255 / 0));
 }
 
-.from-red-300 {
-  --tw-gradient-from: #fca5a5;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(252 165 165 / 0));
-}
-
-.from-picton-blue-200 {
-  --tw-gradient-from: #bfedff;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(191 237 255 / 0));
-}
-
 .from-blue-200 {
   --tw-gradient-from: #bfdbfe;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(191 219 254 / 0));
+}
+
+.from-red-300 {
+  --tw-gradient-from: #fca5a5;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(252 165 165 / 0));
 }
 
 .via-gray-800 {
@@ -2625,12 +2620,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-to: #bfedff;
 }
 
-.to-blue-400 {
-  --tw-gradient-to: #60a5fa;
-}
-
 .to-blue-200 {
   --tw-gradient-to: #bfdbfe;
+}
+
+.to-blue-400 {
+  --tw-gradient-to: #60a5fa;
 }
 
 .bg-cover {
