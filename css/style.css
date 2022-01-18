@@ -51,6 +51,22 @@
 .iv-gradient {
   background: linear-gradient(to right, #be93c5, #7bc6cc);
 }
+/* https://uigradients.com/#Sunkist */
+.advanced-did-gradient {
+    background: linear-gradient(to right, #F2994A, #F2C94C);
+}
+/* https://uigradients.com/#Shalala */
+.tbd-gradient {
+  background: linear-gradient(to right, #D66D75, #E29587);
+}
+/* https://uigradients.com/#Megatron */
+.tbd-gradient {
+  background: linear-gradient(to right, #C6FFDD, #FBD786, #f7797d);
+}
+/* https://uigradients.com/#DirtyFog */
+.tbd-gradient {
+  background: linear-gradient(to right, #B993D6, #8CA6DB);
+}
 .text-gradient {
   background-clip: text;
   color: transparent;
@@ -69,6 +85,22 @@
   /* https://uigradients.com/#Dania */
   .sm\:iv-gradient {
     background: linear-gradient(to right, #be93c5, #7bc6cc);
+  }
+  /* https://uigradients.com/#Sunkist */
+  .sm\:advanced-did-gradient {
+    background: linear-gradient(to right, #F2994A, #F2C94C);
+  }
+  /* https://uigradients.com/#Shalala */
+  .sm\:tbd-gradient {
+    background: linear-gradient(to right, #D66D75, #E29587);
+  }  
+  /* https://uigradients.com/#Megatron */
+  .sm\:tbd-gradient {
+    background: linear-gradient(to right, #C6FFDD, #FBD786, #f7797d);
+  }  
+  /* https://uigradients.com/#DirtyFog */
+  .sm\:tbd-gradient {
+    background: linear-gradient(to right, #B993D6, #8CA6DB);
   }
   .sm\:text-gradient {
     background-clip: text;
