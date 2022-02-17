@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* https://uigradients.com/#Mild */
+.ci-gradient {
+    background: linear-gradient(to right, #67b26f, #4ca2cd);
+  }
+  /* https://uigradients.com/#ViceCity */
+  .did-gradient {
+    background: linear-gradient(to right, #3494e6, #ec6ead);
+  }
+  /* https://uigradients.com/#Dania */
+  .iv-gradient {
+    background: linear-gradient(to right, #be93c5, #7bc6cc);
+  }
+  /* https://uigradients.com/#Sunkist */
+  .advanced-did-gradient {
+      background: linear-gradient(to right, #F2994A, #F2C94C);
+  }
+  /* https://uigradients.com/#Shalala */
+  .tbd-gradient {
+    background: linear-gradient(to right, #D66D75, #E29587);
+  }
+  /* https://uigradients.com/#Megatron */
+  .tbd-gradient {
+    background: linear-gradient(to right, #C6FFDD, #FBD786, #f7797d);
+  }
+  /* https://uigradients.com/#DirtyFog */
+  .tbd-gradient {
+    background: linear-gradient(to right, #B993D6, #8CA6DB);
+  }
+  .text-gradient {
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  @media (min-width: 640px) {
+    /* https://uigradients.com/#Mild */
+    .sm\:ci-gradient {
+      background: linear-gradient(to right, #67b26f, #4ca2cd);
+    }
+    /* https://uigradients.com/#ViceCity */
+    .sm\:did-gradient {
+      background: linear-gradient(to right, #3494e6, #ec6ead);
+    }
+    /* https://uigradients.com/#Dania */
+    .sm\:iv-gradient {
+      background: linear-gradient(to right, #be93c5, #7bc6cc);
+    }
+    /* https://uigradients.com/#Sunkist */
+    .sm\:advanced-did-gradient {
+      background: linear-gradient(to right, #F2994A, #F2C94C);
+    }
+    /* https://uigradients.com/#Shalala */
+    .sm\:tbd-gradient {
+      background: linear-gradient(to right, #D66D75, #E29587);
+    }  
+    /* https://uigradients.com/#Megatron */
+    .sm\:tbd-gradient {
+      background: linear-gradient(to right, #C6FFDD, #FBD786, #f7797d);
+    }  
+    /* https://uigradients.com/#DirtyFog */
+    .sm\:tbd-gradient {
+      background: linear-gradient(to right, #B993D6, #8CA6DB);
+    }
+    .sm\:text-gradient {
+      background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  /* Prose */
+  .prose a {
+    /* @apply text-electric-violet-500; */
+  }
+  .prose a:hover {
+    /* @apply text-electric-violet-700; */
+  }
