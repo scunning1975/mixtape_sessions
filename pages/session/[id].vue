@@ -1,5 +1,13 @@
 <template>
 <div>
+    <!--  Meta data -->
+    <Html>
+      <Head>
+        <Title>{{ session.title }} Mixtape Session</Title>
+        <Meta name="description" :content="`${session.title} Mixtape Session`" />
+      </Head>
+    </Html>
+
     <organism-nav />
 
     <template v-if="idMatched">
@@ -56,7 +64,6 @@ let idMatched = ref(false)
 const route = useRoute()
 const id = route.params.id
 
-
 let session = sessions.value.filter(session => session.id === id.match(/(\w+?)(?=_)/)[1])
 if(session.length > 0) {
     session = session[0]
@@ -69,7 +76,9 @@ if(date.length > 0) {
     idMatched.value = true
 }
 
-
+definePageMeta({
+  title: 'Mixtape Sessions'
+})
 
 </script>
 

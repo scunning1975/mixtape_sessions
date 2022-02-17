@@ -45,7 +45,7 @@
 			<div class="mt-4">
 				<p>
 					<a
-						href="emailto:causalinf@mixtape.consulting"
+						href="mailto:causalinf@mixtape.consulting"
 						class="text-violet-red-600 font-semibold"
 						>Get in touch!</a
 					>

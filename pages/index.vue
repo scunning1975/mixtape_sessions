@@ -1,16 +1,35 @@
 <template>
 <div>
 
-<organism-nav />
+    <!--  Meta data -->
+    <Html>
+      <Head>
+        <Title>Mixtape Sessions</Title>
+        <Meta name="description" :content="'Mixtape Sessions Front Page'" />
+      </Head>
+    </Html>
 
-<!-- Front Page -->
-<organism-home-splash />
-<organism-home-testimonials />
-<organism-home-front-cards />
-<organism-home-who-we-are />
-<!-- End Front Page -->
+    <organism-nav />
 
-<organism-newsletter />
-<organism-footer />
+    <!-- Front Page -->
+    <organism-home-splash />
+    <organism-home-testimonials />
+    <organism-home-front-cards />
+    <organism-home-who-we-are />
+    <!-- End Front Page -->
+
+    <organism-newsletter />
+    <organism-footer />
 </div>
 </template>
+
+
+<script>
+  export default {
+    scrollToTop: true
+  }
+
+definePageMeta({
+  title: 'Mixtape Sessions'
+})
+</script>

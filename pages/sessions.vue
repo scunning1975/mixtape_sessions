@@ -1,26 +1,33 @@
 <template>
 <div>
-<organism-nav />
+    <!--  Meta data -->
+    <Html>
+      <Head>
+        <Title>Mixtape Sessions</Title>
+        <Meta name="description" :content="'Mixtape Sessions Catalog'" />
+      </Head>
+    </Html>
 
-<organism-sessions-header />
+    <organism-nav />
 
-<template 
-    v-for="(session) in sessions" 
-    :key="session.id"
->
-    <molecule-session-card 
-        :title="session.title"
-        :gradientClass="session.gradientClass"
-        :buttonGradient="session.buttonGradient"
-        :about="session.about"
-        :to="'sessions/' + session.dates[session.dates.length-1].url"
-        :dates="session.dates"
-        :instructor="session.instructor"
-    />
-</template>
+    <organism-sessions-header />
 
-<organism-newsletter />
-<organism-footer />
+    <template 
+        v-for="(session) in sessions" 
+        :key="session.id"
+    >
+        <molecule-session-card 
+            :title="session.title"
+            :gradientClass="session.gradientClass"
+            :buttonGradient="session.buttonGradient"
+            :about="session.about"
+            :dates="session.dates"
+            :instructor="session.instructor"
+        />
+    </template>
+
+    <organism-newsletter />
+    <organism-footer />
 </div>
 </template>
 
@@ -28,5 +35,10 @@
 <script setup>
 import { ref } from 'vue'
 import sessions from '@/assets/data/sessions.js'
+
+
+definePageMeta({
+  title: 'Mixtape Sessions'
+})
 
 </script>

@@ -48,7 +48,7 @@
 						Sessions
 					</NuxtLink>
 					<a
-						href="emailto:causalinf@mixtape.consulting"
+						href="mailto:causalinf@mixtape.consulting"
 						class="py-4 px-2 text-xl text-gray-500 font-semibold hover:text-violet-red-600 transition duration-300 flex flex-row"
 					>
 						<svg

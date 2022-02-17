@@ -10,7 +10,7 @@
         />
 
         <atom-session-card-learn-more
-            :to="to"
+            :date = "dates[dates.length-1]"
             :buttonGradient="buttonGradient"
         />
 
@@ -28,7 +28,6 @@ const props = defineProps({
     buttonGradient: String,
     title: String,
     about: String,
-    to: String,
     dates: Array,
     instructor: Object
 })
