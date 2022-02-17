@@ -1,4 +1,5 @@
 <template>
+<div>
 <organism-nav />
 
 <organism-sessions-header />
@@ -12,7 +13,7 @@
         :gradientClass="session.gradientClass"
         :buttonGradient="session.buttonGradient"
         :about="session.about"
-        :to="session.to"
+        :to="'sessions/' + session.dates[session.dates.length-1].url"
         :dates="session.dates"
         :instructor="session.instructor"
     />
@@ -20,7 +21,7 @@
 
 <organism-newsletter />
 <organism-footer />
-
+</div>
 </template>
 
 

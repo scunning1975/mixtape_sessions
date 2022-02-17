@@ -1,7 +1,7 @@
 <template>
 	<div class="flex flex-row items-center space-x-4 mr-4">
 		<!-- Website Logo -->
-		<a href="index.html" class="decoration-none flex space-x-2 group">
+		<NuxtLink to="/" class="decoration-none flex space-x-2 group">
 			<svg
 				class="h-16 md:h-20"
 				viewBox="0 0 10844 4424"
@@ -70,6 +70,6 @@
 			</svg>
 
 			<SvgLogo svgClass="w-16 h-16 md:w-20 md:h-20 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition duration-300 ease-in-out"/>
-		</a>
+		</NuxtLink>
 	</div>
 </template>

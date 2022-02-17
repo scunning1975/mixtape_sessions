@@ -1,4 +1,6 @@
 <template>
+<div>
+
 <organism-nav />
 
 <!-- Front Page -->
@@ -10,4 +12,5 @@
 
 <organism-newsletter />
 <organism-footer />
+</div>
 </template>

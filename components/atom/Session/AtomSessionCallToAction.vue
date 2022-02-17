@@ -50,7 +50,10 @@
         <!-- Register Button -->
         <div class="w-72 sm:w-96 px-8 mt-8 mb-8">
           <div class="mr-auto relative group">
-            <div class="absolute -inset-1 advanced-did-gradient rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse animation-delay-2000 ">
+            <div 
+                class="absolute -inset-1 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse animation-delay-2000 "
+                :class="buttonGradient"
+            >
             </div>
             <a href="https://www.eventbrite.com/e/250526751257" class=" relative px-4 py-4 bg-white rounded-lg leading-none flex items-center justify-center space-x-2">
               <span class="text-gray-800">Register Today</span>
@@ -66,6 +69,7 @@
 
 <script setup>
 defineProps({
-    instructor: Object
+    instructor: Object,
+    buttonGradient: String,
 })
 </script>

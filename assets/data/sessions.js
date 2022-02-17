@@ -6,7 +6,6 @@ export default ref([
         title: "Causal Inference",
         gradientClass: "sm:ci-gradient", buttonGradient: "ci-gradient",
         about: `Causal inference is a specialization within economics and statistics that grew out of the labor economics tradition to evaluate the causal effects of programs. While physical randomization was widely known to yield unbiased estimates of causal effects, it was not often used in economics. A wave of new labor economists starting in the late 1970s and mid 1980s changed that as they pushed for focus on exploiting quasi random assignment in natural experiments or through imposed modeling assumptions on counterfactuals. This work in conjunction with pioneering work in econometrics led to the sharpening of such research designs as instrumental variables and difference-in-differences. This workshop will cover foundational elements of modern practices of causal inference such as the potential outcomes model as well as discuss in detail the most common designs: regression discontinuity, instrumental variables, difference in differences, comparative case studies using synthetic control and if time permitting matching. It will be accompanied by efforts to introduce students to basic practices in programming as well as good research practices more generally.`,
-        to: '#',
         dates: [
             {
                 date: 'January 14th',
@@ -117,7 +116,6 @@ export default ref([
         title: "Difference-in-Differences",
         gradientClass: "sm:did-gradient", buttonGradient: "did-gradient",
         about: `The most common quasi-experimental method in the quantitative social sciences is the difference-in-differences research design. This methodology has undergone substantial updates over the last few years as econometricians and statisticians have begun investigating the historical use of panel fixed effects estimators more closely as well as devising alternative models that perform best under heterogenous treatment effects and heterogenous policy adoption. This 1-day workshop will cover the most important new theoretical papers with an aim towards intuition and implementation. It will also include substantial group programming assignments.`,
-        to: '#',
         dates: [
             {
                 date: 'February 18th',
@@ -176,7 +174,6 @@ export default ref([
         title: "Instrumental Variables",
         gradientClass: "sm:iv-gradient", buttonGradient: "iv-gradient",
         about: `Instrumental variables (IV) is a powerful tool for leveraging external (“exogenous”) variation to estimate the causal effects of otherwise confounded (“endogenous”) variables. This one-day workshop will introduce the basics of IV through different practical examples, formalize the requirements of a valid and powerful IV, and discuss the mechanics of the two-stage least squares (2SLS) estimator. Special focus will be paid on interpreting linear IV under heterogeneous treatment effects and recent advances in judge leniency designs, shift-share IV, and more. The course will include substantial group programming exercises, where different IV techniques will be illustrated in real-world applications.`,
-        to: '#',
         dates: [
             {
                 date: 'March 12th',
@@ -203,7 +200,6 @@ export default ref([
         title: "Advanced Difference-in-Differences",
         gradientClass: "sm:advanced-did-gradient", buttonGradient: "advanced-did-gradient",
         about: ``,
-        to: '#',
         dates: [
             {
                 date: 'June 10th',

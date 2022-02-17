@@ -1,4 +1,5 @@
 <template>
+<div>
     <organism-nav />
 
     <template v-if="idMatched">
@@ -15,6 +16,7 @@
 
         <atom-session-call-to-action 
             :instructor="session.instructor"
+            :buttonGradient="session.buttonGradient"
         />
 
         <atom-session-calendar
@@ -42,6 +44,7 @@
 
     <organism-newsletter />
     <organism-footer />
+</div>
 </template>
 
 <script setup>
