@@ -25,6 +25,7 @@
         <atom-session-call-to-action 
             :instructor="session.instructor"
             :buttonGradient="session.buttonGradient"
+            :date="date"
         />
 
         <atom-session-calendar

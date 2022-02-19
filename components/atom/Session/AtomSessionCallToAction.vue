@@ -55,7 +55,7 @@
                 :class="buttonGradient"
             >
             </div>
-            <a href="https://www.eventbrite.com/e/250526751257" class=" relative px-4 py-4 bg-white rounded-lg leading-none flex items-center justify-center space-x-2">
+            <a :href="date.eventbrite" class=" relative px-4 py-4 bg-white rounded-lg leading-none flex items-center justify-center space-x-2">
               <span class="text-gray-800">Register Today</span>
               <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-800 stroke-current h-6 w-6" fill="none" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
@@ -70,6 +70,7 @@
 <script setup>
 defineProps({
     instructor: Object,
+    date: Object,
     buttonGradient: String,
 })
 </script>
