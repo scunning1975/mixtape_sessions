@@ -18,7 +18,7 @@
           <ul>
             <li class="flex mb-4">
                 <svg-mixtape svgClass="h-12 w-12 mr-4 text-gray-400 flex-shrink-0"/>
-              Attendance to the workshop with Jonathan Roth.
+              Attendance to the workshop with {{instructor.name}}.
             </li>
             <li class="flex mb-4" v-if="instructor.name === 'Prof. Scott Cunningham'">
                 <svg-mic svgClass="h-12 w-12 mr-4 text-gray-400 flex-shrink-0"/>
