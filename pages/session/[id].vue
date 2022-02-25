@@ -65,7 +65,8 @@ let idMatched = ref(false)
 const route = useRoute()
 const id = route.params.id
 
-let session = sessions.value.filter(session => session.id === id.match(/(\w+?)(?=_)/)[1])
+let session = sessions.value.filter(session => session.id === id.match(/([\w_-]+)(?=_)/)[1])
+
 if(session.length > 0) {
     session = session[0]
 }
