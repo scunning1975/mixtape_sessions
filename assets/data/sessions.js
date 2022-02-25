@@ -1,7 +1,72 @@
 import { ref } from "vue"
 
 export default ref([
+  // Instrumental Variables (Peter Hull)
 	{
+		id: "iv",
+		title: "Instrumental Variables",
+		gradientClass: "sm:iv-gradient",
+		buttonGradient: "iv-gradient",
+		about: `Instrumental variables (IV) is a powerful tool for leveraging external (“exogenous”) variation to estimate the causal effects of otherwise confounded (“endogenous”) variables. This one-day workshop will introduce the basics of IV through different practical examples, formalize the requirements of a valid and powerful IV, and discuss the mechanics of the two-stage least squares (2SLS) estimator. Special focus will be paid on interpreting linear IV under heterogeneous treatment effects and recent advances in judge leniency designs, shift-share IV, and more. The course will include substantial group programming exercises, where different IV techniques will be illustrated in real-world applications.`,
+		dates: [
+			{
+				date: "March 12th",
+				url: "iv_mar12",
+				eventbrite: "https://www.eventbrite.com/e/226373337747",
+				calendar: [
+					{
+						day: "March 12th",
+						time: "9am-6pm EST",
+						topics: [
+							"Regression Review and Regression Endogeneity",
+							"Introduction to IV",
+							"Understanding Instrument Validity; 2SLS Mechanics; Applications",
+							"Coding Lab",
+							"Heterogeneous Treatment Effects; Characterizing Compliers; MTEs",
+							"Judge Leniency Designs; Shift-Share IV; New IV Frontiers",
+							"Coding Lab",
+						],
+					},
+				],
+			},
+		],
+		instructor: {
+			name: "Prof. Peter Hull",
+			url: "http://peterhull.net/",
+			about: `<a href="https://peterhull.net/" class="text-violet-red-500 hover:text-violet-red-600">Peter Hull</a> is the Groos Family Assistant Professor of Economics at Brown Univeristy and a Faculty Research Fellow at the National Bureau of Economic Research. He has published papers on topics in applied econometrics, education, healthcare, and criminal justice, in outlets such as the American Economic Review, the Quarterly Journal of Economics, the Review of Economic Studies, and the New England Journal of Medicine. His research is focused on developing and applying new instrumental variable methods to measure the quality of institutions, such as schools or hospitals, as well as discrimination and bias in human and algorithmic decision-making. Prior to Brown, Professor Hull taught at the Kenneth C. Griffin Department of Economics at the University of Chicago and worked at Microsoft Research and the Federal Reserve Bank of New York. He earned his PhD in economics from MIT in 2017, under 2021 Nobel Laureate Josh Angrist.`,
+			img: `peter_hull.png`,
+		},
+	},
+  // Advanced DID (Jonathan Roth)
+	{
+		id: "advanced_did",
+		title: "Advanced DID",
+		gradientClass: "sm:advanced-did-gradient",
+		buttonGradient: "advanced-did-gradient",
+		about: ``,
+		dates: [
+			{
+				date: "June 10th",
+				url: "advanced_did_jun10",
+				eventbrite: "https://www.eventbrite.com/e/250526751257",
+				calendar: [
+					{
+						day: "June 10th",
+						time: "9am-5pm EST",
+						topics: ["Advanced Difference-in-Differences"],
+					},
+				],
+			},
+		],
+		instructor: {
+			name: "Prof. Jonathan Roth",
+			url: "https://jonathandroth.github.io/",
+			about: `<a href="https://jonathandroth.github.io/" class="text-violet-red-500 hover:text-violet-red-600">Jonathan Roth</a> is an assistant professor in the economics department at Brown University. His primary research interests are in econometrics, with a focus on causal inference. He has also worked on topics in labor economics, machine learning, and algorithmic fairness. He was previously a senior researcher in the Office of the Chief Economist at Microsoft. He received my PhD in economics in 2020 from Harvard, where He was awarded the David A. Wells prize for best dissertation. He obtained a BA summa cum laude in mathematics and economics from the University of Pennsylvania.`,
+			img: `jonathan_roth.jpeg`,
+		},
+	},
+  // Causal Inference (Scott Cunningham)
+  {
 		id: "ci",
 		title: "Causal Inference",
 		gradientClass: "sm:ci-gradient",
@@ -163,6 +228,7 @@ export default ref([
 			img: `scott_cunningham.png`,
 		},
 	},
+  // Difference-in-differences (Scott Cunningham)
 	{
 		id: "did",
 		title: "Difference-in-Differences",
@@ -266,68 +332,6 @@ export default ref([
 			url: "http://scunning.com/",
 			about: `<a href="https://www.scunning.com" class="text-violet-red-500 hover:text-violet-red-600">Scott Cunningham</a> is a professor of economics at Baylor University. Scott studies a number of topics including mental healthcare, sex work, abortion and drug policy. He loves his family, friends, colleagues, students, HBO, Ted Lasso, Keanu Reeves, Mister Rogers, my kittens Betty and Veronica, causal inference, Mac Miller and Kanye West.`,
 			img: `scott_cunningham.png`,
-		},
-	},
-	{
-		id: "iv",
-		title: "Instrumental Variables",
-		gradientClass: "sm:iv-gradient",
-		buttonGradient: "iv-gradient",
-		about: `Instrumental variables (IV) is a powerful tool for leveraging external (“exogenous”) variation to estimate the causal effects of otherwise confounded (“endogenous”) variables. This one-day workshop will introduce the basics of IV through different practical examples, formalize the requirements of a valid and powerful IV, and discuss the mechanics of the two-stage least squares (2SLS) estimator. Special focus will be paid on interpreting linear IV under heterogeneous treatment effects and recent advances in judge leniency designs, shift-share IV, and more. The course will include substantial group programming exercises, where different IV techniques will be illustrated in real-world applications.`,
-		dates: [
-			{
-				date: "March 12th",
-				url: "iv_mar12",
-				eventbrite: "https://www.eventbrite.com/e/226373337747",
-				calendar: [
-					{
-						day: "March 12th",
-						time: "9am-6pm EST",
-						topics: [
-							"Regression Review and Regression Endogeneity",
-							"Introduction to IV",
-							"Understanding Instrument Validity; 2SLS Mechanics; Applications",
-							"Coding Lab",
-							"Heterogeneous Treatment Effects; Characterizing Compliers; MTEs",
-							"Judge Leniency Designs; Shift-Share IV; New IV Frontiers",
-							"Coding Lab",
-						],
-					},
-				],
-			},
-		],
-		instructor: {
-			name: "Prof. Peter Hull",
-			url: "http://peterhull.net/",
-			about: `<a href="https://peterhull.net/" class="text-violet-red-500 hover:text-violet-red-600">Peter Hull</a> is the Groos Family Assistant Professor of Economics at Brown Univeristy and a Faculty Research Fellow at the National Bureau of Economic Research. He has published papers on topics in applied econometrics, education, healthcare, and criminal justice, in outlets such as the American Economic Review, the Quarterly Journal of Economics, the Review of Economic Studies, and the New England Journal of Medicine. His research is focused on developing and applying new instrumental variable methods to measure the quality of institutions, such as schools or hospitals, as well as discrimination and bias in human and algorithmic decision-making. Prior to Brown, Professor Hull taught at the Kenneth C. Griffin Department of Economics at the University of Chicago and worked at Microsoft Research and the Federal Reserve Bank of New York. He earned his PhD in economics from MIT in 2017, under 2021 Nobel Laureate Josh Angrist.`,
-			img: `peter_hull.png`,
-		},
-	},
-	{
-		id: "advanced_did",
-		title: "Advanced DID",
-		gradientClass: "sm:advanced_did-gradient",
-		buttonGradient: "advanced_did-gradient",
-		about: ``,
-		dates: [
-			{
-				date: "June 10th",
-				url: "advanced_did_jun10",
-				eventbrite: "https://www.eventbrite.com/e/250526751257",
-				calendar: [
-					{
-						day: "June 10th",
-						time: "9am-5pm EST",
-						topics: ["Advanced Difference-in-Differences"],
-					},
-				],
-			},
-		],
-		instructor: {
-			name: "Prof. Jonathan Roth",
-			url: "https://jonathandroth.github.io/",
-			about: `<a href="https://jonathandroth.github.io/" class="text-violet-red-500 hover:text-violet-red-600">Jonathan Roth</a> is an assistant professor in the economics department at Brown University. His primary research interests are in econometrics, with a focus on causal inference. He has also worked on topics in labor economics, machine learning, and algorithmic fairness. He was previously a senior researcher in the Office of the Chief Economist at Microsoft. He received my PhD in economics in 2020 from Harvard, where He was awarded the David A. Wells prize for best dissertation. He obtained a BA summa cum laude in mathematics and economics from the University of Pennsylvania.`,
-			img: `jonathan_roth.jpeg`,
 		},
 	},
 ])
