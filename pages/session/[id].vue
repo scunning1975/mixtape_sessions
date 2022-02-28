@@ -3,8 +3,8 @@
     <!--  Meta data -->
     <Html>
       <Head>
-        <Title>{{ session.title }} Mixtape Session</Title>
-        <Meta name="description" :content="`${session.title} Mixtape Session`" />
+        <Title>{{ session.title }} {{session.type}}</Title>
+        <Meta name="description" :content="`${session.title} ${session.type}`" />
       </Head>
     </Html>
 
@@ -13,6 +13,7 @@
     <template v-if="idMatched">
         <atom-session-header 
             :title="session.title"
+            :type="session.type"
             :gradientClass="session.gradientClass"
             :about="session.about"
         />

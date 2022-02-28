@@ -2,6 +2,7 @@
     <AtomSection class="mb-48">
         <atom-session-card-header 
             :title="title"
+            :type="type"
             :gradientClass="gradientClass"
         />
 
@@ -27,6 +28,7 @@ const props = defineProps({
     gradientClass: String,
     buttonGradient: String,
     title: String,
+    type: String,
     about: String,
     dates: Array,
     instructor: Object

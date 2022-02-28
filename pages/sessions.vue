@@ -18,6 +18,7 @@
     >
         <molecule-session-card 
             :title="session.title"
+            :type="session.type"
             :gradientClass="session.gradientClass"
             :buttonGradient="session.buttonGradient"
             :about="session.about"

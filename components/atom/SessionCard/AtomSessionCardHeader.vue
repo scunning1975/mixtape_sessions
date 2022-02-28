@@ -10,7 +10,7 @@
 						title
 					}}</span>
 				</h1>
-				<h3 class="mt-2 text-3xl text-gray-600 font-marker">Mixtape Session</h3>
+				<h3 class="mt-2 text-3xl text-gray-600 font-marker">{{type}}</h3>
 			</div>
 		</div>
 	</div>
@@ -20,5 +20,6 @@
 const props = defineProps({
 	gradientClass: String,
 	title: String,
+  type: String,
 })
 </script>
