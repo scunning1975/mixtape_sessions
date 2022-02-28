@@ -1,10 +1,148 @@
 import { ref } from "vue"
 
 export default ref([
+  // Causal Inference I (Scott Cunningham)
+  {
+		id: "ci_I",
+		title: "Causal Inference I",
+    type: "Mixtape Session",
+		gradientClass: "sm:ci-gradient",
+		buttonGradient: "ci-gradient",
+		about: `Causal Inference Part I kickstarts a new 4-day series on design based causal inference series.  It covers the foundations of causal inference grounded in a counterfactual theory of causality built on the Neyman-Rubin model of potential outcomes.  It will also cover randomization inference, independence, regression discontinuity and instrumental variables.  We will review the theory behind each of these designs in detail with the aim being comprehension, competency and confidence.  To help accomplish this, we will hold ongoing discussions via Discourse, work through assignments and exercises together, and have detailed walk-throughs of code in R and Stata.  This is the prequel to the Part II course that covers difference-in-differences, synthetic control, matching, and causal graphs.`,
+		dates: [
+			{
+				date: "July 29th",
+				url: "ci_I_jul29",
+				eventbrite: "",
+				calendar: [
+					{
+						day: "July 29th",
+						time: "9am-6pm CST",
+						topics: [
+							"Introduction to causal inference", "Potential outcomes and counterfactuals", "Randomization, selection bias", "Randomization inference ", 
+						],
+					},
+					{
+						day: "July 30th",
+						time: "9am-6pm CST",
+						topics: ["Introduction to causal graphs", "Propensity score matching", "Nearest neighbor covariate matching",],
+					},
+					{
+						day: "August 20th",
+						time: "9am-6pm CST",
+						topics: ["Instrumental variables", "Canonical estimators (2SLS, Wald)", "Intuition and assumptions ", "Weak instruments and 2SLS bias", "Heterogenous treatment effects", "Local average treatment effect",],
+					},
+					{
+						day: "August 21st",
+						time: "9am-6pm CST",
+            topics: [
+							"Introduction to regression discontinuity ", "Regression discontinuity identification", "Nonlinearities and estimation ", "Nonparametric estimation ", "General tips (data visualization, density tests, etc)",
+						],
+					},
+				],
+			},
+		],
+		instructor: {
+			name: "Prof. Scott Cunningham",
+			url: "http://scunning.com/",
+			about: `<a href="https://www.scunning.com" class="text-violet-red-500 hover:text-violet-red-600">Scott Cunningham</a> is a professor of economics at Baylor University. Scott studies a number of topics including mental healthcare, sex work, abortion and drug policy. He loves his family, friends, colleagues, students, HBO, Ted Lasso, Keanu Reeves, Mister Rogers, my kittens Betty and Veronica, causal inference, Mac Miller and Kanye West.`,
+			img: `scott_cunningham.png`,
+		},
+	},
+  // Causal Inference II (Scott Cunningham)
+	{
+		id: "ci_II",
+		title: "Causal Inference II",
+    type: "Mixtape Session",
+		gradientClass: "sm:did-gradient",
+		buttonGradient: "did-gradient",
+		about: `Causal inference Part II is a 4-day workshop in design based causal inference series.  It will cover three contemporary research designs in causal inference -- difference-in-differences, synthetic control and matching/weighting methods -- as well as introduce participants to causal graphs developed by Judea Pearl and others.  Each day is 8 hours with 15 minute breaks on the hour plus an hour for lunch.  We will review the theory behind each design, go into detail on the intuition of the estimation strategies and identification itself, as well as explore code in R and Stata and applications using these methods.  The goal as always is that participants leave the workshop with competency and confidence. This class will be a sequel to the 4-day workshop on Causal Inference as it will cover more difference-in-differences and synthetic control material than is offered in that course plus matching and causal graphs.`,
+		dates: [
+			{
+				date: "June 18th",
+				url: "ci_II_jun18",
+				eventbrite: "",
+				calendar: [
+					{
+						day: "June 18th",
+						time: "9am-6pm CST",
+						topics: [
+							"Introduction to DID", "Parallel trends and the DID equation", "OLS, TWFE, Triple difference", "Synthetic control (Abadie, Diamond and Hainmueller 2010)", 
+						],
+					},
+					{
+						day: "June 19th",
+						time: "9am-6pm CST",
+						topics: [
+              "DID with Covariates (SantAnna and Zhao 2020; Abadie 2005)", "Differential timing and Bacon decomposition (Goodman-Bacon 2021)", "Aggregating group-time average treatment effects (Callaway and SantAnna 2020)", 
+						],
+					},
+					{
+						day: "June 25th",
+						time: "9am-6pm CST",
+						topics: [
+              "Analyzing event studies (Sun and Abraham 2020)", "Imputation Estimators (Gardner 2021 and Borusyal et al 2021)",
+						],
+					},
+          {
+						day: "June 26th",
+						time: "9am-6pm CST",
+						topics: [
+              "Time-varying Covariates and Imputation",
+              "Continuous Treatment"
+						],
+					},
+				],
+			},
+      {
+				date: "August 27th",
+				url: "ci_II_aug27",
+				eventbrite: "",
+				calendar: [
+					{
+						day: "August 27th",
+						time: "9am-6pm CST",
+						topics: [
+							"Introduction to DID", "Parallel trends and the DID equation", "OLS, TWFE, Triple difference", "Synthetic control (Abadie, Diamond and Hainmueller 2010)", 
+						],
+					},
+					{
+						day: "August 28th",
+						time: "9am-6pm CST",
+						topics: [
+              "DID with Covariates (Sant'Anna and Zhao 2020; Abadie 2005)", "Differential timing and Bacon decomposition (Goodman-Bacon 2021)", "Aggregating group-time average treatment effects (Callaway and SantAnna 2020)", 
+						],
+					},
+					{
+						day: "September 3rd",
+						time: "9am-6pm CST",
+						topics: [
+              "Analyzing event studies (Sun and Abraham 2020)", "Imputation Estimators (Gardner 2021 and Borusyal et al 2021)",
+						],
+					},
+          {
+						day: "September 4th",
+						time: "9am-6pm CST",
+						topics: [
+              "Time-varying Covariates and Imputation (Caetano et al 2021)",
+              "Continuous Treatment (Callaway, Goodman-Bacon and Sant'Anna 2020)"
+						],
+					},
+				],
+			},
+		],
+		instructor: {
+			name: "Prof. Scott Cunningham",
+			url: "http://scunning.com/",
+			about: `<a href="https://www.scunning.com" class="text-violet-red-500 hover:text-violet-red-600">Scott Cunningham</a> is a professor of economics at Baylor University. Scott studies a number of topics including mental healthcare, sex work, abortion and drug policy. He loves his family, friends, colleagues, students, HBO, Ted Lasso, Keanu Reeves, Mister Rogers, my kittens Betty and Veronica, causal inference, Mac Miller and Kanye West.`,
+			img: `scott_cunningham.png`,
+		},
+	},
   // Instrumental Variables (Peter Hull)
 	{
 		id: "iv",
 		title: "Instrumental Variables",
+    type: "Mixtape Track",
 		gradientClass: "sm:iv-gradient",
 		buttonGradient: "iv-gradient",
 		about: `Instrumental variables (IV) is a powerful tool for leveraging external (“exogenous”) variation to estimate the causal effects of otherwise confounded (“endogenous”) variables. This one-day workshop will introduce the basics of IV through different practical examples, formalize the requirements of a valid and powerful IV, and discuss the mechanics of the two-stage least squares (2SLS) estimator. Special focus will be paid on interpreting linear IV under heterogeneous treatment effects and recent advances in judge leniency designs, shift-share IV, and more. The course will include substantial group programming exercises, where different IV techniques will be illustrated in real-world applications.`,
@@ -41,6 +179,7 @@ export default ref([
 	{
 		id: "advanced_did",
 		title: "Advanced DID",
+    type: "Mixtape Track",
 		gradientClass: "sm:advanced-did-gradient",
 		buttonGradient: "advanced-did-gradient",
 		about: ``,
