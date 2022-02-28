@@ -9,7 +9,10 @@
     "nuxt3": "latest"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.5.0",
+    "@heroicons/vue": "^1.0.5",
     "@nuxtjs/tailwindcss": "5.0.0-4",
-    "@tailwindcss/typography": "^0.5.2"
+    "@tailwindcss/typography": "^0.5.2",
+    "html-to-image": "^1.9.0"
   }
 }
