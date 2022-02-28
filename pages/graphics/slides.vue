@@ -5,7 +5,7 @@
 			<Listbox v-model="selectedSession">
 				<div class="relative mt-1">
 					<ListboxButton
-						class="relative w-full py-2 pl-3 pr-10 text-left bg-white rounded-lg shadow-md cursor-default focus:outline-none border-ruby-400 border-2 sm:text-sm font-medium"
+						class="relative w-full py-2 pl-3 pr-10 text-left bg-white rounded-lg shadow-md cursor-default focus:outline-none border-sun-400 border-2 sm:text-sm font-medium"
 					>
 						<span class="block truncate">{{ selectedSession.title }}</span>
 						<span
@@ -21,7 +21,7 @@
 						leave-to-class="opacity-0"
 					>
 						<ListboxOptions
-							class="absolute w-full py-1 mt-1 overflow-auto text-base bg-white rounded-md shadow-lg max-h-60 border-2 border-ruby-400 focus:outline-none sm:text-sm z-40"
+							class="absolute w-full py-1 mt-1 overflow-auto text-base bg-white rounded-md shadow-lg max-h-60 border-2 border-sun-400 focus:outline-none sm:text-sm z-40"
 						>
 							<ListboxOption
 								v-slot="{ active, selected }"
@@ -33,7 +33,7 @@
 							>
 								<li
 									:class="[
-										active ? 'text-ruby-900 bg-ruby-100' : 'text-gray-900',
+										active ? 'text-sun-900 bg-sun-100' : 'text-gray-900',
 										'cursor-default select-none relative py-2 pl-10 pr-4',
 									]"
 								>
@@ -46,7 +46,7 @@
 									>
 									<span
 										v-if="selected"
-										class="absolute inset-y-0 left-0 flex items-center pl-3 text-ruby-600"
+										class="absolute inset-y-0 left-0 flex items-center pl-3 text-sun-600"
 									>
 										<CheckIcon class="w-5 h-5" aria-hidden="true" />
 									</span>
@@ -60,15 +60,15 @@
 			<!-- Custom Subtitle -->
 			<div class="flex gap-x-2">
 				<input
-					class="grow bg-white rounded-lg shadow-md cursor-default focus:outline-none border-ruby-400 border-2 sm:text-sm py-2 pl-3 pr-10 font-medium"
+					class="grow bg-white rounded-lg shadow-md cursor-default focus:outline-none border-sun-400 border-2 sm:text-sm py-2 pl-3 pr-10 font-medium  font-marker"
 					v-model="subtitle"
 				/>
 				<button
-					class="grow-0 bg-white rounded-lg shadow-md cursor-pointer focus:outline-none border-ruby-400 border-2 sm:text-sm py-2 px-2 group hover:bg-ruby-100"
+					class="grow-0 bg-white rounded-lg shadow-md cursor-pointer focus:outline-none border-sun-400 border-2 sm:text-sm py-2 px-2 group hover:bg-sun-100"
 					@click="downloadImage"
 				>
 					<DownloadIcon
-						class="w-5 h-5 text-gray-400 group-hover:text-ruby-900"
+						class="w-5 h-5 text-gray-400 group-hover:text-sun-900"
 						aria-hidden="true"
 					/>
 				</button>
@@ -84,15 +84,15 @@
 					v-slot="{ active, checked }"
 				>
 					<div
-						:class="[active | checked ? 'bg-ruby-100 text-ruby-900' : '']"
-						class="bg-white relative flex px-3 py-2 rounded-lg border-ruby-400 border-2 shadow-md cursor-pointer focus:outline-none"
+						:class="[active | checked ? 'bg-sun-100 text-sun-900' : '']"
+						class="bg-white relative flex px-3 py-2 rounded-lg border-sun-400 border-2 shadow-md cursor-pointer focus:outline-none"
 					>
 						<div
 							class="flex items-center justify-between w-full text-sm font-medium"
 						>
 							<CheckIcon
 								v-if="checked"
-								class="w-4 h-4 text-ruby-500 mr-1"
+								class="w-4 h-4 text-sun-500 mr-1"
 								aria-hidden="true"
 							/>
 
