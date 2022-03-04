@@ -182,7 +182,7 @@ export default ref([
     type: "Mixtape Track",
 		gradientClass: "sm:advanced-did-gradient",
 		buttonGradient: "advanced-did-gradient",
-		about: ``,
+		about: `This one-day workshop will cover advanced topics from the recent difference-in-differences literature. One question of particular focus will be, <i>"what should I do if I'm not 100% sure about the validity of the parallel trends assumption?"</i> We will cover a variety of relaxations to the parallel trends assumption, and new tools for power calculations and sensitivity analysis. The workshop will focus not just on the theory, but also on practical implementation in statistical software such as R and Stata. `,
 		dates: [
 			{
 				date: "June 10th",

@@ -15,8 +15,7 @@
 			<div
 				class="mt-8 md:mt-5 xl:mt-8 text-base text-gray-600 sm:text-lg md:text-xl max-w-prose"
 			>
-				<p>
-					{{ about }}
+				<p v-html="about">
 				</p>
 			</div>
 		</div>
