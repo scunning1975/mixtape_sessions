@@ -96,8 +96,8 @@
 			<div class="mobile-menu transition-all" v-show="showMenu">
 				<ul class="block mt-4">
 					<li class="group hover:bg-violet-red-600">
-						<a
-							href="index.html"
+            <NuxtLink
+						  to="/"
 							class="block text-sm px-8 py-4 text-black hover:text-violet-red-50 font-semibold flex flex-row"
 						>
 							<svg
@@ -115,11 +115,11 @@
 								/>
 							</svg>
 							Home
-						</a>
+						</NuxtLink>
 					</li>
 					<li class="group hover:bg-violet-red-600">
-						<a
-							href="sessions.html"
+						<NuxtLink
+							to="/sessions"
 							class="block text-sm px-8 py-4 text-black hover:text-violet-red-50 font-semibold flex flex-row"
 						>
 							<svg
@@ -137,7 +137,7 @@
 								/>
 							</svg>
 							Sessions
-						</a>
+						</NuxtLink>
 					</li>
 					<li class="group hover:bg-violet-red-600">
 						<a
