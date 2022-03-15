@@ -20,7 +20,7 @@
 		>
 			<div class="col-span-1 mb-6">
 				<h3 class="text-md text-gray-400 pt-1">Day {{index+1}}</h3>
-				<p class="text-2xl text-picton-blue-800 font-medium">{{day.date}}</p>
+				<p class="text-2xl text-picton-blue-800 font-medium">{{day.day}}</p>
 				<p class="mt-1 text-gray-600">{{day.time}}</p>
 			</div>
 			<div class="pl-2 lg:pl-0 md:py-8 col-span-1 md:col-span-3">

@@ -40,7 +40,7 @@
       <div class="col-span-1 py-8 lg:py-0 lg:col-span-2 bg-gray-100 rounded-b-lg lg:rounded-b-none lg:rounded-r-lg flex flex-col justify-center items-center">
         <div class="text-center">
           <span class="text-3xl font-semibold">$595</span>
-          <span class="text-xl font-light text-gray-500">USD &amp; Fees</span>
+          <span class="text-xl font-light text-gray-500"> USD + Fees</span>
         </div>
 
         <div class="text-gray-600 text-center text-sm underline w-4/5 mx-auto py-2">
