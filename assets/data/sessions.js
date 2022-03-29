@@ -102,6 +102,42 @@ export default ref([
 			img: `scott_cunningham.png`,
 		},
 	},
+  // Shift-Share IV (Peter Hull)
+	{
+		id: "shift_share",
+		title: "Shift-Share IV",
+    type: "Mixtape Track",
+		gradientClass: "sm:shift-share-gradient",
+		buttonGradient: "shift-share-gradient",
+		about: `Shift-Share Instrumental Variables (SSIV) are used to address endogeneity and selection challenges in many economic settings. This half-day workshop will introduce the basics of SSIV and cover the recent literature on its econometric foundations. Special focus will be paid on the different assumptions underlying the “exogenous shares” and “exogenous shocks” approaches to SSIV identification, and their practical implications. We will also cover a more general class of instrumental variable strategies combining exogenous shocks and non-random exposure. Group programming exercises will be used to illustrate various theoretical concepts in real-world applications.`,
+		dates: [
+			{
+				date: "May 21st",
+				url: "shift_share_may21",
+				eventbrite: "https://www.eventbrite.com/e/309107547997",
+				calendar: [
+					{
+						day: "May 21st",
+						time: "1pm-5pm EST",
+						topics: [
+							"Introducing Shift-Share IV: Recent Applications",
+              "The “Exogenous Shares” Approach (Goldsmith-Pinkham et al. 2020)",
+              "The “Exogenous Shocks” Approach (Borusyak et al., 2022)",
+              "Practical Implications from Exogenous Shares vs. Shocks",
+              "Beyond SSIV: Non-Random Exposure to Exogenous Shocks (Borusyak and Hull, 2022)",
+              "Coding Lab",
+						],
+					},
+				],
+			},
+		],
+		instructor: {
+			name: "Prof. Peter Hull",
+			url: "http://peterhull.net/",
+			about: `<a href="https://peterhull.net/" class="text-violet-red-500 hover:text-violet-red-600">Peter Hull</a> is the Groos Family Assistant Professor of Economics at Brown Univeristy and a Faculty Research Fellow at the National Bureau of Economic Research. He has published papers on topics in applied econometrics, education, healthcare, and criminal justice, in outlets such as the American Economic Review, the Quarterly Journal of Economics, the Review of Economic Studies, and the New England Journal of Medicine. His research is focused on developing and applying new instrumental variable methods to measure the quality of institutions, such as schools or hospitals, as well as discrimination and bias in human and algorithmic decision-making. Prior to Brown, Professor Hull taught at the Kenneth C. Griffin Department of Economics at the University of Chicago and worked at Microsoft Research and the Federal Reserve Bank of New York. He earned his PhD in economics from MIT in 2017, under 2021 Nobel Laureate Josh Angrist.`,
+			img: `peter_hull.png`,
+		},
+	},
   // Instrumental Variables (Peter Hull)
 	{
 		id: "iv",
@@ -109,21 +145,26 @@ export default ref([
     type: "Mixtape Track",
 		gradientClass: "sm:iv-gradient",
 		buttonGradient: "iv-gradient",
-		about: `Instrumental variables (IV) is a powerful tool for leveraging external (“exogenous”) variation to estimate the causal effects of otherwise confounded (“endogenous”) variables. This one-day workshop will introduce the basics of IV through different practical examples, formalize the requirements of a valid and powerful IV, and discuss the mechanics of the two-stage least squares (2SLS) estimator. Special focus will be paid on interpreting linear IV under heterogeneous treatment effects and recent advances in judge leniency designs, shift-share IV, and more. The course will include substantial group programming exercises, where different IV techniques will be illustrated in real-world applications.`,
+		about: `Instrumental variables (IV) is a powerful tool for leveraging external (“exogenous”) variation to estimate the causal effects of otherwise confounded (“endogenous”) variables. This two-day workshop will introduce the basics of IV through different practical examples, formalize the requirements of a valid and powerful IV, and discuss the mechanics of the two-stage least squares (2SLS) estimator. Special focus will be paid on interpreting linear IV under heterogeneous treatment effects, recent advances in judge leniency designs and more. The course will include substantial group programming exercises, where different IV techniques will be illustrated in real-world applications.`,
 		dates: [
-			{
-				date: "March 12th",
-				url: "iv_mar12",
-				eventbrite: "https://www.eventbrite.com/e/226373337747",
+      {
+				date: "April 27th",
+				url: "iv_apr27",
+				eventbrite: "https://www.eventbrite.com/e/309103686447/",
 				calendar: [
 					{
-						day: "March 12th",
-						time: "9am-6pm EST",
+						day: "April 27th",
+						time: "6pm-9pm EST",
 						topics: [
 							"Regression Review and Regression Endogeneity",
 							"Introduction to IV",
 							"Understanding Instrument Validity; 2SLS Mechanics; Applications",
 							"Coding Lab",
+            ]
+          }, {
+            day: "April 28th",
+						time: "6pm-9pm EST",
+						topics: [
 							"Heterogeneous Treatment Effects; Characterizing Compliers; MTEs",
 							"Judge Leniency Designs; Shift-Share IV; New IV Frontiers",
 							"Coding Lab",

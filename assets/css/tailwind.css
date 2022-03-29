@@ -18,9 +18,9 @@
   .advanced-did-gradient {
       background: linear-gradient(to right, #F2994A, #F2C94C);
   }
-  /* https://uigradients.com/#Shalala */
-  .tbd-gradient {
-    background: linear-gradient(to right, #D66D75, #E29587);
+  /* https://uigradients.com/#HarmonicEnergy */
+  .shift-share-gradient {
+    background: linear-gradient(to right, #8A2387, #E94057, #F27121);
   }
   /* https://uigradients.com/#Megatron */
   .tbd-gradient {
@@ -54,8 +54,8 @@
       background: linear-gradient(to right, #F2994A, #F2C94C);
     }
     /* https://uigradients.com/#Shalala */
-    .sm\:tbd-gradient {
-      background: linear-gradient(to right, #D66D75, #E29587);
+    .sm\:shift-share-gradient {
+      background: linear-gradient(to right, #8A2387, #E94057, #F27121);
     }  
     /* https://uigradients.com/#Megatron */
     .sm\:tbd-gradient {
