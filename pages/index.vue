@@ -1,6 +1,5 @@
 <template>
 <div>
-
     <!--  Meta data -->
     <Html>
       <Head>
@@ -25,9 +24,9 @@
 
 
 <script>
-  export default {
-    scrollToTop: true
-  }
+export default {
+  scrollToTop: true
+}
 
 definePageMeta({
   title: 'Mixtape Sessions'

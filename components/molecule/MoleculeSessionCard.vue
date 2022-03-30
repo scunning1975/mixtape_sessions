@@ -8,6 +8,7 @@
 
         <atom-session-card-about
             :about="about"
+            :reviews="reviews"
         />
 
         <atom-session-card-learn-more
@@ -30,6 +31,7 @@ const props = defineProps({
     title: String,
     type: String,
     about: String,
+    reviews: Array,
     dates: Array,
     instructor: Object
 })
