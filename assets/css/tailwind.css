@@ -22,12 +22,8 @@
   .shift-share-gradient {
     background: linear-gradient(to right, #8A2387, #E94057, #F27121);
   }
-  /* https://uigradients.com/#Megatron */
-  .tbd-gradient {
-    background: linear-gradient(to right, #C6FFDD, #FBD786, #f7797d);
-  }
   /* https://uigradients.com/#DirtyFog */
-  .tbd-gradient {
+  .applied-gradient {
     background: linear-gradient(to right, #B993D6, #8CA6DB);
   }
   .text-gradient {
@@ -57,12 +53,8 @@
     .sm\:shift-share-gradient {
       background: linear-gradient(to right, #8A2387, #E94057, #F27121);
     }  
-    /* https://uigradients.com/#Megatron */
-    .sm\:tbd-gradient {
-      background: linear-gradient(to right, #C6FFDD, #FBD786, #f7797d);
-    }  
     /* https://uigradients.com/#DirtyFog */
-    .sm\:tbd-gradient {
+    .sm\:applied-gradient {
       background: linear-gradient(to right, #B993D6, #8CA6DB);
     }
     .sm\:text-gradient {

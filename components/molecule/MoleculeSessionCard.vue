@@ -33,6 +33,6 @@ const props = defineProps({
     about: String,
     reviews: Array,
     dates: Array,
-    instructor: Object
+    instructor: Array
 })
 </script>

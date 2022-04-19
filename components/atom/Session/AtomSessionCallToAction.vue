@@ -18,7 +18,7 @@
           <ul>
             <li class="flex mb-4">
                 <svg-mixtape svgClass="h-12 w-12 mr-4 text-gray-400 flex-shrink-0"/>
-              Attendance to the workshop with {{instructor.name}}.
+              Attendance to the workshop with {{ names }}.
             </li>
             <li class="flex mb-4" v-if="instructor.name === 'Prof. Scott Cunningham'">
                 <svg-mic svgClass="h-12 w-12 mr-4 text-gray-400 flex-shrink-0"/>
@@ -68,9 +68,18 @@
 </template>
 
 <script setup>
-defineProps({
-    instructor: Object,
+const props = defineProps({
+  instructor: Array,
     date: Object,
     buttonGradient: String,
+})
+console.log(props.instructor)
+const names = computed(() => {
+  if(props.instructor.length == 1) {
+    return props.instructor[0].name
+  } 
+  else {
+    return props.instructor[0].name + " and " + props.instructor[1].name
+  }
 })
 </script>

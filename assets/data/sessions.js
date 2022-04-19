@@ -42,7 +42,7 @@ export default ref([
 				],
 			},
 		],
-		instructor: {
+		instructor: [{
 			name: "Prof. Scott Cunningham",
 			url: "http://scunning.com/",
 			about: `<a href="https://www.scunning.com" class="text-violet-red-500 hover:text-violet-red-600">Scott Cunningham</a> is a professor of economics at Baylor University. Scott studies a number of topics including mental healthcare, sex work, abortion and drug policy. He loves his family, friends, colleagues, students, HBO, Ted Lasso, Keanu Reeves, Mister Rogers, my kittens Betty and Veronica, causal inference, Mac Miller and Kanye West.`,
@@ -52,7 +52,7 @@ export default ref([
         "Scott's ability to explain fairly complex methods and concepts in an intuitive way, plus his complete openness and availability to answer questions as they come around, and his commitment to democratize causal inference (truly admirable and very rare within economics) make this a wonderful workshop that I would highly recommend to anyone wanting to learn more about the topic and methods."
       ],
 			img: `scott_cunningham.png`,
-		},
+		}],
 	},
   // Causal Inference II (Scott Cunningham)
 	{
@@ -100,7 +100,7 @@ export default ref([
 				],
 			},
 		],
-		instructor: {
+		instructor: [{
 			name: "Prof. Scott Cunningham",
 			url: "http://scunning.com/",
 			about: `<a href="https://www.scunning.com" class="text-violet-red-500 hover:text-violet-red-600">Scott Cunningham</a> is a professor of economics at Baylor University. Scott studies a number of topics including mental healthcare, sex work, abortion and drug policy. He loves his family, friends, colleagues, students, HBO, Ted Lasso, Keanu Reeves, Mister Rogers, my kittens Betty and Veronica, causal inference, Mac Miller and Kanye West.`,
@@ -110,8 +110,53 @@ export default ref([
         "Scott's ability to explain fairly complex methods and concepts in an intuitive way, plus his complete openness and availability to answer questions as they come around, and his commitment to democratize causal inference (truly admirable and very rare within economics) make this a wonderful workshop that I would highly recommend to anyone wanting to learn more about the topic and methods."
       ],
 			img: `scott_cunningham.png`,
-		},
+		}],
 	},
+    // Doing Applied Research (Daniel Rees and Mark Anderson)
+    {
+      id: "applied",
+      title: "Doing Applied Research",
+      type: "Mixtape Track",
+      gradientClass: "sm:applied-gradient",
+      buttonGradient: "applied-gradient",
+      about: `A`,
+      dates: [
+        {
+          date: "August 12th",
+          url: "applied_aug12",
+          eventbrite: "",
+          calendar: [
+            {
+              day: "August 12th",
+              time: "4 hours",
+              topics: [
+                "Starting Your Research Project", "Practical Tips for Writing Your Applied Paper", "Grad Student Job Market Q&A" 
+              ],
+            },
+            {
+              day: "August 13th",
+              time: "4 hours",
+              topics: [
+                "The Publication Process", "Refereeing", "Conferences and Networking", "Ask the editor!", "Grad Student Job Market Q&A"
+              ],
+            },
+          ],
+        },
+      ],
+      instructor: [{
+        name: "Prof. Daniel Rees",
+        url: "https://danielrees.weebly.com/",
+        about: `<a href="https://danielrees.weebly.com/" class="text-violet-red-500 hover:text-violet-red-600">Daniel Rees</a> professor in the department of economics at the Universidad Carlos III de Madrid. He serves as a coeditor at the <i>American Journal of Health Economics</i> and at the <i>Journal of Policy Analysis and Management</i>. He was a professor in the Department of Economics at the University of Colorado Denver from 1993-2021 and Editor-in-Chief of the <i>Economics of Education Review</i> from 2014-2019. <br/><br/> Dr. Rees is currently studying the mortality transition at the turn of the 20th century, the relationship between hospital desegregation and the Black-White infant mortality gap, and the long-term effects of smoking on health.  His research has appeared in the <i>American Economic Journal: Applied Economics, <i>Economic Journal</i>, <i>Journal of Development Economics</i>, <i>Journal of Economic Literature</i>, <i>Journal of Human Resources</i>, <i>Journal of Political Economy</i>, and <i>Review of Economics and Statistics</i>.`,
+        img: `dan_rees.jpg`,
+      }, 
+      {
+        name: "Prof. D. Mark Anderson",
+        url: "http://www.dmarkanderson.com/",
+        about: `<a href="http://www.dmarkanderson.com/" class="text-violet-red-500 hover:text-violet-red-600">D. Mark Anderson</a> is an Associate Professor in the Department of Agricultural Economics & Economics at Montana State University, a research associate at the National Bureau of Economic Research, and a co-editor of <i>Economic Inquiry</i>.  He received his Ph.D. in economics from the University of Washington in 2011. <br/><br/> Dr. Anderson is an applied microeconomist with research interests in health and economic history.  His research has appeared in the <i>American Economic Journal: Applied Economics</i>, <i>Economic Journal</i>, <i>Journal of Economic Literature</i>, <i>Journal of Law and Economics</i>, <i>Journal of Urban Economics</i>, <i>Journal of Political Economy</i>, and <i>Review of Economics and Statistics</i>.
+`,
+        img: `mark_anderson.jpg`,
+      }],
+    },
   // Shift-Share IV (Peter Hull)
 	{
 		id: "shift_share",
@@ -141,7 +186,7 @@ export default ref([
 				],
 			},
 		],
-		instructor: {
+		instructor: [{
 			name: "Prof. Peter Hull",
 			url: "http://peterhull.net/",
 			about: `<a href="https://peterhull.net/" class="text-violet-red-500 hover:text-violet-red-600">Peter Hull</a> is the Groos Family Assistant Professor of Economics at Brown Univeristy and a Faculty Research Fellow at the National Bureau of Economic Research. He has published papers on topics in applied econometrics, education, healthcare, and criminal justice, in outlets such as the American Economic Review, the Quarterly Journal of Economics, the Review of Economic Studies, and the New England Journal of Medicine. His research is focused on developing and applying new instrumental variable methods to measure the quality of institutions, such as schools or hospitals, as well as discrimination and bias in human and algorithmic decision-making. Prior to Brown, Professor Hull taught at the Kenneth C. Griffin Department of Economics at the University of Chicago and worked at Microsoft Research and the Federal Reserve Bank of New York. He earned his PhD in economics from MIT in 2017, under 2021 Nobel Laureate Josh Angrist.`,
@@ -151,7 +196,7 @@ export default ref([
         "This workshop was expertly run. The exposure to a really amazing instructor in Peter Hull was valuable in and of itself. The lectures were well prepared, lots of helpful readings and lecture notes were provided. I came away having learning more about IV and feel more confident about how IV works, in theory and practice."
       ],
 			img: `peter_hull.png`,
-		},
+		}],
 	},
   // Instrumental Variables (Peter Hull)
 	{
@@ -188,7 +233,7 @@ export default ref([
 				],
 			},
 		],
-		instructor: {
+		instructor: [{
 			name: "Prof. Peter Hull",
 			url: "http://peterhull.net/",
 			about: `<a href="https://peterhull.net/" class="text-violet-red-500 hover:text-violet-red-600">Peter Hull</a> is the Groos Family Assistant Professor of Economics at Brown Univeristy and a Faculty Research Fellow at the National Bureau of Economic Research. He has published papers on topics in applied econometrics, education, healthcare, and criminal justice, in outlets such as the American Economic Review, the Quarterly Journal of Economics, the Review of Economic Studies, and the New England Journal of Medicine. His research is focused on developing and applying new instrumental variable methods to measure the quality of institutions, such as schools or hospitals, as well as discrimination and bias in human and algorithmic decision-making. Prior to Brown, Professor Hull taught at the Kenneth C. Griffin Department of Economics at the University of Chicago and worked at Microsoft Research and the Federal Reserve Bank of New York. He earned his PhD in economics from MIT in 2017, under 2021 Nobel Laureate Josh Angrist.`,
@@ -198,7 +243,7 @@ export default ref([
         "This workshop was expertly run. The exposure to a really amazing instructor in Peter Hull was valuable in and of itself. The lectures were well prepared, lots of helpful readings and lecture notes were provided. I came away having learning more about IV and feel more confident about how IV works, in theory and practice."
       ],
 			img: `peter_hull.png`,
-		},
+		}],
 	},
   // Advanced DID (Jonathan Roth)
 	{
@@ -222,12 +267,12 @@ export default ref([
 				],
 			},
 		],
-		instructor: {
+		instructor: [{
 			name: "Prof. Jonathan Roth",
 			url: "https://jonathandroth.github.io/",
 			about: `<a href="https://jonathandroth.github.io/" class="text-violet-red-500 hover:text-violet-red-600">Jonathan Roth</a> is an assistant professor in the economics department at Brown University. His primary research interests are in econometrics, with a focus on causal inference. He has also worked on topics in labor economics, machine learning, and algorithmic fairness. He was previously a senior researcher in the Office of the Chief Economist at Microsoft. He received my PhD in economics in 2020 from Harvard, where He was awarded the David A. Wells prize for best dissertation. He obtained a BA summa cum laude in mathematics and economics from the University of Pennsylvania.`,
 			img: `jonathan_roth.jpeg`,
-		},
+		}],
 	},
   // Causal Inference (Scott Cunningham)
   {
@@ -385,12 +430,12 @@ export default ref([
 				],
 			},
 		],
-		instructor: {
+		instructor: [{
 			name: "Prof. Scott Cunningham",
 			url: "http://scunning.com/",
 			about: `<a href="https://www.scunning.com" class="text-violet-red-500 hover:text-violet-red-600">Scott Cunningham</a> is a professor of economics at Baylor University. Scott studies a number of topics including mental healthcare, sex work, abortion and drug policy. He loves his family, friends, colleagues, students, HBO, Ted Lasso, Keanu Reeves, Mister Rogers, my kittens Betty and Veronica, causal inference, Mac Miller and Kanye West.`,
 			img: `scott_cunningham.png`,
-		},
+		}],
 	},
   // Difference-in-differences (Scott Cunningham)
 	{
@@ -491,11 +536,11 @@ export default ref([
 				],
 			},
 		],
-		instructor: {
+		instructor: [{
 			name: "Prof. Scott Cunningham",
 			url: "http://scunning.com/",
 			about: `<a href="https://www.scunning.com" class="text-violet-red-500 hover:text-violet-red-600">Scott Cunningham</a> is a professor of economics at Baylor University. Scott studies a number of topics including mental healthcare, sex work, abortion and drug policy. He loves his family, friends, colleagues, students, HBO, Ted Lasso, Keanu Reeves, Mister Rogers, my kittens Betty and Veronica, causal inference, Mac Miller and Kanye West.`,
 			img: `scott_cunningham.png`,
-		},
+		}],
 	},
 ])

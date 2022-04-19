@@ -7,7 +7,8 @@
     </div>
 
     <!-- About Instructor -->
-    <div class="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-4 gap-x-8">
+    <div class="space-y-12">
+    <div class="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-4 gap-x-8" v-for="instructor in props.instructor" :key="instructor.name">
       <div class="col-span-1 lg:col-span-1 text-center justify-center">
         <img class="rounded-full w-1/2 md:w-1/3 lg:w-full mx-auto" :src="'/img/' + instructor.img" :alt="instructor.name">
       </div>
@@ -23,11 +24,12 @@
         </ul>
       </div>
     </div>
+    </div>
 </atom-section-wide>
 </template>
 
 <script setup>
-defineProps({
+const props = defineProps({
     instructor: Object
 })
 </script>

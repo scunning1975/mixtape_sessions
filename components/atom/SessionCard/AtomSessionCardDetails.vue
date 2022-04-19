@@ -11,9 +11,11 @@
 			</div>
 
 			<div class="mt-4">
+        <span class="block" v-for="instructor in props.instructor" :key="instructor.name">
 				<a :href="instructor.url" class="text-violet-red-500 font-semibold">{{
 					instructor.name
 				}}</a>
+        </span>
 			</div>
 		</div>
 
@@ -59,8 +61,8 @@
 </template>
 
 <script setup>
-defineProps({
-	instructor: Object,
-    dates: Array
+const props = defineProps({
+	instructor: Array,
+  dates: Array
 })
 </script>

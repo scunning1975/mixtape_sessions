@@ -8,7 +8,7 @@
       </div>
       <div class="">
         <h3 class="text-sm tracking-wider font-bold text-gray-400">Instructor</h3>
-        <span class="mt-1 text-gray-600">
+        <span class="mt-1 text-gray-600 block" v-for="instructor in props.instructor" :key="instructor.name">
           <a :href="instructor.url" class="text-violet-red-500 font-semibold">{{instructor.name}}</a>
         </span>
       </div>
@@ -39,8 +39,10 @@
 </template>
 
 <script setup>
-defineProps({
-    instructor: Object,
+const props = defineProps({
+    instructor: Array,
     date: Object,
 })
+
+
 </script>

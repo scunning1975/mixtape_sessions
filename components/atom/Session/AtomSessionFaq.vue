@@ -15,6 +15,7 @@
 			<div
 				class="rounded-md mt-4 target:ring-2 hover:ring-2 ring-electric-violet-500"
 				v-for="faq in faqsRef"
+        :key = "faq.q"
 			>
 				<div
 					class="bg-gray-100 p-6 rounded-md break-inside-avoid-column"
@@ -32,9 +33,9 @@
 <script setup>
 import { ref, toRefs } from "vue"
 const props = defineProps({
-	instructor: Object,
+	instructor: Array,
 })
-const { instructor } = toRefs(props);
+const isScott = props.instructor.filter(i => i.name === 'Prof. Scott Cunningham').length > 0
 
 let faqs = [
 	{
@@ -105,7 +106,7 @@ let faqs = [
     
 ]
 
-if(instructor.name != "Prof. Scott Cunningham") {
+if(!isScott) {
     faqs = faqs.filter(faq => !faq.scottOnly)
 }
 const faqsRef = ref(faqs)
