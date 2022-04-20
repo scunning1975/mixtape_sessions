@@ -119,7 +119,7 @@ export default ref([
       type: "Mixtape Track",
       gradientClass: "sm:applied-gradient",
       buttonGradient: "applied-gradient",
-      about: `A`,
+      about: `This course is intended to be a practical guide for early career economists doing applied research. The nuts and bolts of writing, publishing, and service to the profession are covered in two half-day sessions, each lasting roughly four hours (including short breaks). We begin by providing tips on selecting a research topic, doing a comprehensive literature search, and “pitching” your results. Next, we go through the publication process from choosing a journal to effectively responding to the comments of editors and reviewers. We wrap up by discussing networking, refereeing for economics journals, and getting the most out of conferences and departmental seminars. Each half-day session ends with an optional 30-minute Q&A about the academic job market.`,
       dates: [
         {
           date: "August 12th",
