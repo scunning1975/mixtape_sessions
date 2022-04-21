@@ -124,7 +124,7 @@ export default ref([
         {
           date: "August 12th",
           url: "applied_aug12",
-          eventbrite: "eventbrite.com/e/324348654557",
+          eventbrite: "https://eventbrite.com/e/324348654557",
           calendar: [
             {
               day: "August 12th",
