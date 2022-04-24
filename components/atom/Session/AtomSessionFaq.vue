@@ -40,7 +40,7 @@ const isScott = props.instructor.filter(i => i.name === 'Prof. Scott Cunningham'
 let faqs = [
 	{
 		q: "Are discounts available?",
-		a: "<p>Yes! To receive promo codes, email us at <a href='mailto:causalinf@mixtape.consulting' class='text-violet-600 hover:text-violet-700'>causalinf@mixtape.consulting</a>.</p><p>Students can attend for $50 plus a few dollars in fees. To receive your promo code, please include a photo of your student ID.</p><p>If you are attending multiple sessions, email us and you will recive $190 off your second session (2 for $995).</p><p> International folks from developing countries will also receive discounts. Email us!</p>",
+		a: "<p>Yes! To receive promo codes, email us at <a href='mailto:causalinf@mixtape.consulting' class='text-violet-600 hover:text-violet-700'>causalinf@mixtape.consulting</a>.</p><p>Students can attend for $50 plus a few dollars in fees. To receive your promo code, please include a photo of your student ID.</p><p> International folks from developing countries will also receive discounts. Email us!</p>",
 		scottOnly: false,
 	},
 	{
