@@ -65,7 +65,7 @@ let faqs = [
 	},
 	{
 		q: "Will there be recordings?",
-		a: "<p>There will be no recordings on my end</p>",
+		a: "<p>We will upload recordings to Vimeo and they will be password protected, so that only attendees can watch the videos.</p>",
 		scottOnly: false,
 	},
 	{
