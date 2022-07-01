@@ -1,5 +1,5 @@
 <template>
-	<div class="flex flex-row items-center space-x-4 mr-4">
+	<div class="flex flex-row items-center space-x-4">
 		<!-- Website Logo -->
 		<NuxtLink to="/" class="decoration-none flex space-x-2 group">
 			<svg
