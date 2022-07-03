@@ -17,7 +17,7 @@ export default ref([
 				calendar: [
 					{
 						day: "September 3rd",
-						time: "9am-6pm CST",
+						time: "8am-5pm CST",
 						topics: [
 							"Introduction to causal inference",
 							"Potential outcomes and counterfactuals",
@@ -27,7 +27,7 @@ export default ref([
 					},
 					{
 						day: "September 4th",
-						time: "9am-6pm CST",
+						time: "8am-5pm CST",
 						topics: [
 							"Introduction to causal graphs",
 							"Propensity score matching",
@@ -36,7 +36,7 @@ export default ref([
 					},
 					{
 						day: "September 10th",
-						time: "9am-6pm CST",
+						time: "8am-5pm CST",
 						topics: [
 							"Instrumental variables",
 							"Canonical estimators (2SLS, Wald)",
@@ -48,7 +48,7 @@ export default ref([
 					},
 					{
 						day: "September 11th",
-						time: "9am-6pm CST",
+						time: "8am-5pm CST",
 						topics: [
 							"Introduction to regression discontinuity ",
 							"Regression discontinuity identification",
@@ -90,7 +90,7 @@ export default ref([
 				calendar: [
 					{
 						day: "August 20th",
-						time: "9am-6pm CST",
+						time: "8am-5pm CST",
 						topics: [
 							"Introduction to DID",
 							"Parallel trends and the DID equation",
@@ -100,7 +100,7 @@ export default ref([
 					},
 					{
 						day: "August 21st",
-						time: "9am-6pm CST",
+						time: "8am-5pm CST",
 						topics: [
 							"DID with Covariates (Sant'Anna and Zhao 2020; Abadie 2005)",
 							"Differential timing and Bacon decomposition (Goodman-Bacon 2021)",
@@ -109,7 +109,7 @@ export default ref([
 					},
 					{
 						day: "August 27th",
-						time: "9am-6pm CST",
+						time: "8am-5pm CST",
 						topics: [
 							"Analyzing event studies (Sun and Abraham 2020)",
 							"Imputation Estimators (Gardner 2021 and Borusyal et al 2021)",
@@ -117,7 +117,7 @@ export default ref([
 					},
 					{
 						day: "August 28th",
-						time: "9am-6pm CST",
+						time: "8am-5pm CST",
 						topics: [
 							"Time-varying Covariates and Imputation (Caetano et al 2021)",
 							"Continuous Treatment (Callaway, Goodman-Bacon and Sant'Anna 2020)",
@@ -132,7 +132,7 @@ export default ref([
 				calendar: [
 					{
 						day: "October 8th",
-						time: "9am-6pm CST",
+						time: "8am-5pm CST",
 						topics: [
 							"Introduction to DID",
 							"Parallel trends and the DID equation",
@@ -142,7 +142,7 @@ export default ref([
 					},
 					{
 						day: "October 9th",
-						time: "9am-6pm CST",
+						time: "8am-5pm CST",
 						topics: [
 							"DID with Covariates (Sant'Anna and Zhao 2020; Abadie 2005)",
 							"Differential timing and Bacon decomposition (Goodman-Bacon 2021)",
@@ -151,7 +151,7 @@ export default ref([
 					},
 					{
 						day: "October 15th",
-						time: "9am-6pm CST",
+						time: "8am-5pm CST",
 						topics: [
 							"Analyzing event studies (Sun and Abraham 2020)",
 							"Imputation Estimators (Gardner 2021 and Borusyal et al 2021)",
@@ -159,7 +159,7 @@ export default ref([
 					},
 					{
 						day: "October 16th",
-						time: "9am-6pm CST",
+						time: "8am-5pm CST",
 						topics: [
 							"Time-varying Covariates and Imputation (Caetano et al 2021)",
 							"Continuous Treatment (Callaway, Goodman-Bacon and Sant'Anna 2020)",
