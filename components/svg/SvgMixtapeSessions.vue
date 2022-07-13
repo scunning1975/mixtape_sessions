@@ -1,9 +1,22 @@
+<script setup>
+const props = defineProps({
+	svgClass: {
+		default: "w-16 h-16 md:w-20 md:h-20 hover:-translate-y-0.5 hover:translate-x-0.5 transition duration-300 ease-in-out",
+		type: String,
+	},
+  textClass: {
+		default: "h-16 md:h-20",
+		type: String,
+	},
+})
+</script>
+
 <template>
 	<div class="flex flex-row items-center space-x-4">
 		<!-- Website Logo -->
 		<NuxtLink to="/" class="decoration-none flex space-x-2 group">
 			<svg
-				class="h-16 md:h-20"
+				:class="textClass"
 				viewBox="0 0 10844 4424"
 				xmlns="http://www.w3.org/2000/svg"
 				xml:space="preserve"
@@ -69,7 +82,7 @@
 				</g>
 			</svg>
 
-			<SvgLogo svgClass="w-16 h-16 md:w-20 md:h-20 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition duration-300 ease-in-out"/>
+			<SvgLogo :svgClass="svgClass"/>
 		</NuxtLink>
 	</div>
 </template>
