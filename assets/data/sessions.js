@@ -198,7 +198,7 @@ export default ref([
 				calendar: [
 					{
 						day: "August 12th",
-						time: "4 hours",
+						time: "11am-3pm EST",
 						topics: [
 							"Starting Your Research Project",
 							"Practical Tips for Writing Your Applied Paper",
@@ -207,7 +207,7 @@ export default ref([
 					},
 					{
 						day: "August 13th",
-						time: "4 hours",
+						time: "11am-3pm EST",
 						topics: [
 							"The Publication Process",
 							"Refereeing",
