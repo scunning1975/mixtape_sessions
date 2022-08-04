@@ -4,7 +4,7 @@
 
 			<div class="flex gap-x-2">
 				<button
-					class="bg-white rounded-lg shadow-md cursor-pointer focus:outline-none border-sun-400 border-2 sm:text-sm py-2 px-2 group hover:bg-sun-100"
+					class="w-full flex justify-center bg-white rounded-lg shadow-md cursor-pointer focus:outline-none border-sun-400 border-2 sm:text-sm py-2 px-2 group hover:bg-sun-100"
 					@click="downloadImage"
 				>
 					<DownloadIcon

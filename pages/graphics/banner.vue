@@ -4,7 +4,7 @@
 
 			<div class="flex gap-x-2">
 				<button
-					class="bg-white rounded-lg shadow-md cursor-pointer focus:outline-none border-sun-400 border-2 sm:text-sm py-2 px-2 group hover:bg-sun-100"
+					class="w-full flex justify-center bg-white rounded-lg shadow-md cursor-pointer focus:outline-none border-sun-400 border-2 sm:text-sm py-2 px-2 group hover:bg-sun-100"
 					@click="downloadImage"
 				>
 					<DownloadIcon
@@ -17,15 +17,15 @@
 
 		<!-- Image -->
 		<div
-			class="flex flex-col gap-y-2 items-center justify-center"
+			class="flex flex-row gap-x-4 items-center justify-center"
       :style="{
         width: `${format.width}px`,
         height: `${format.height}px`
       }"      
 			id="graphic"
 		>
-      <SvgLogo svgClass="w-[380px] h-[380px]" />
-      <span class="text-[4rem] font-marker text-white">Mixtape Sessions</span>
+      <SvgLogo svgClass="flex-shrink-0 mr-2 h-20 w-20" />
+      <p class="text-4xl tracking-tight font-marker">Mixtape Sessions</p>
 		</div>
 	</div>
 </template>
@@ -35,7 +35,7 @@
 import { DownloadIcon } from "@heroicons/vue/solid"
 import * as htmlToImage from 'html-to-image';
 
-const format = {width: "550", height: "600"}
+const format = {width: "420", height: "100"}
 
 const downloadImage = () => {
   const graphic = document.getElementById('graphic');
